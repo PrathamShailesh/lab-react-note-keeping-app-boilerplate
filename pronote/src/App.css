@@ -1,0 +1,34 @@
+body{
+  background-color: #3867D6;
+  color: white;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.input-text{
+  width: 45vw;
+  height: 70vh;
+  border: 3px rgb(92, 86, 86) solid;
+  background-color: #3867D6;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+.input-text:focus{
+  outline: none;
+}
+
+
+.output-text{
+  width: 45vw;
+  height: 70vh;
+  background-color: #464646;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: black 5px 5px 20px;
+}
